@@ -65,6 +65,10 @@ function RootLayoutNav() {
             name="cart"
             options={{ presentation: "modal" }}
           />
+          <Stack.Screen
+            name="(auth)"
+            options={{ headerShown: false }}
+          />
         </Stack>
       </CartProvider>
     </ThemeProvider>

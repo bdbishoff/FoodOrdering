@@ -18,6 +18,18 @@ const index = () => {
       >
         <Button text="Admin" />
       </Link>
+      <Link
+        href={"/(auth)/sign-in"}
+        asChild
+      >
+        <Button text="sign in" />
+      </Link>
+      <Link
+        href={"/(auth)/sign-up"}
+        asChild
+      >
+        <Button text="sign up" />
+      </Link>
     </View>
   );
 };
